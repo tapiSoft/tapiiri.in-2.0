@@ -30,6 +30,10 @@ tapiiriinApp.config(function ($routeProvider) {
       templateUrl: 'views/broadcasting.html',
       controller: 'BroadcastingCtrl'
     })
+    .when('/events', {
+      templateUrl: 'views/events.html',
+      controller: 'EventsCtrl'
+    })
     .otherwise({
       redirectTo: '/'
     });

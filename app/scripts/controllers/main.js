@@ -31,3 +31,7 @@ tapiiriControllers.controller('SoftwareCtrl', function ($scope) {
 tapiiriControllers.controller('BroadcastingCtrl', function ($scope) {
 
 });
+
+tapiiriControllers.controller('EventsCtrl', function ($scope) {
+
+});
