@@ -6,8 +6,7 @@ Our motto: We are group!
 
 Version 1.0 is buried meanwhile 2.0 is under construction and will be made with Ruby on Rails, AngularJS and PowerKing energy drink.
 
-<a href="murmuring-cove-6527.herokuapp.com">The Backend is deployed here</a>  
-[The backend is deployed here](murmuring-cove-6527.herokuapp.com)  
+[The backend is deployed here](http://murmuring-cove-6527.herokuapp.com)  
 [And the Ruby on Rails backend repository can be found here](https://github.com/tapiSoft/tapiiri.in-2.0-backend)
 
 ## Once finished site will include some group stuff like:
