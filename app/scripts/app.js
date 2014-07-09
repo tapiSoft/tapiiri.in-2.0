@@ -5,36 +5,40 @@ var tapiiriinApp = angular.module('tapiiriinApp', [
   'ngResource',
   'ngSanitize',
   'ngRoute',
-  'tapiiriControllers'
+  'tapiiriControllers',
+  'tapiiriServices'
 ]);
 
 tapiiriinApp.config(function ($routeProvider) {
   $routeProvider
     .when('/', {
       templateUrl: 'views/main.html',
-      controller: 'MainCtrl'
+      controller: 'MainController'
     })
     .when('/e-sports', {
       templateUrl: 'views/e-sports.html',
-      controller: 'E-sportsCtrl'
+      controller: 'E-sportsController'
     })
     .when('/powerlifting', {
       templateUrl: 'views/powerlifting.html',
-      controller: 'PowerliftingCtrl'
+      controller: 'PowerliftingController'
     })
     .when('/software', {
       templateUrl: 'views/software.html',
-      controller: 'SoftwareCtrl'
+      controller: 'SoftwareController'
     })
     .when('/broadcasting', {
       templateUrl: 'views/broadcasting.html',
-      controller: 'BroadcastingCtrl'
+      controller: 'BroadcastingController'
     })
     .when('/events', {
       templateUrl: 'views/events.html',
-      controller: 'EventsCtrl'
+      controller: 'EventsController'
     })
     .otherwise({
       redirectTo: '/'
     });
 });
+
+var tapiiriControllers = angular.module('tapiiriControllers', []);
+var tapiiriServices = angular.module('tapiiriServices', []);
